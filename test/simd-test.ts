@@ -1,3 +1,4 @@
+/// <reference path="../simd.d.ts" />
 
 /*****************
  SIMD Constructor Objs

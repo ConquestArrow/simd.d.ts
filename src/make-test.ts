@@ -2,7 +2,11 @@
 import "../lib/ecmascript_simd"
 
 
+
+
 let out = "";
+
+out += `/// <reference path="../simd.d.ts" />\n`
 
 out += `
 /*****************
