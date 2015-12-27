@@ -1,0 +1,30 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "simd",
+			"type": "node",
+			"request": "launch",
+			"program": "built/sample.js",
+			"stopOnEntry": false,
+			"args": ["--harmony_simd"],
+			"cwd": ".",
+			"runtimeExecutable": null,
+			"runtimeArgs": [
+				"--nolazy"
+			],
+			"env": {
+				"NODE_ENV": "development"
+			},
+			"externalConsole": true,
+			"sourceMaps": false,
+			"outDir": null
+		},
+		{
+			"name": "Attach",
+			"type": "node",
+			"request": "attach",
+			"port": 5858
+		}
+	]
+}
